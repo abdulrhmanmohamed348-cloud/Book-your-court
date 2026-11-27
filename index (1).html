@@ -22,7 +22,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 [hidden]{display:none!important}
 
 .top{position:relative;overflow:hidden;background:var(--night);color:#fff;padding:34px 20px 60px}
-.top svg.art{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.top .art{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(8,28,20,.55),rgba(13,42,30,.82)),url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA4gMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EAEYQAAIBAwMBBQQHAwgKAwEAAAECAwAEEQUSITEGE0FRYSJxgZEUMkJSocHRFSOxFkNicoKSouEzNDVEU1Rjk/DxJIPiJv/EABoBAAIDAQEAAAAAAAAAAAAAAAECAAMEBQb/xAAqEQACAgEDAwMDBQEAAAAAAAAAAQIRAxIhMQQTUSIyQQUUYUJxkaHRM//aAAwDAQACEQMRAD8A2e2ltqcqAMkgAefFDwXMU1w0IyAAcsenFdmeeEPczlQxzn7Ud21Fc3EVsqmXOWYKAOuabbavpkqmG4nliuixXPcMyceeKkj06eWR2g1C3uwR7MYfaU9Qp8ayZevjp9HJpx9LJv1cAcn+sttbHt4B/OgeyzXn0ib6YqRsLhtgUAZGDz8a1lxoBkfvRNtd8FkYdD481jOyUMNtf3tvBM0xS8kSQsMYYA8DzFciVylbOmkkqRHoGpXV9Ndx3MzPHEx2Bveea1Og7fp7k5x3bZxWL7Ic3Wo8cbhj5tW20QbbmU7QQIWOD41OCFbBFrQiQ3NnbX1sT7LMfaUeHIHlTdStYoltpLPUhYs4OUlZkWXyHHAx06c0tKs1dVfRNfwxxuhLgn5GpNbsEuBGuo2zzW49uN7XKvEcAHI5HXNABDpEup2U6x3dm1xaH60kEgYfjxjzHWrG9j3yToMpkkBQOnpxVT2YisdPuJY7TVGdZMKLe4GNh5+HNXl0XFxJulQe0eQOTVuPK8d6fkWWNT5K+PS4/ZYqXxzl2wBRzSEmMTTZVcBV8BUYMZOGMjnHSnRodyiOBV8RupNT5sbSqoGtmSUANzhiQSccE07GThfaGceRobTS7qJdhQlF9nGcE84oqJHEgJffG/tKcD2eenFasfUTxvZnPWOM1uNA5wetd21pNU06H9lidIyJlRfqjr0zkVnsV18Ofuxsy5cfblRHilipdtLbV1lRFilipdtd20bIQ4rm2pttc21CEW2ltqXbSxRIRbaW2pcUsVCEW2u1JilUAZSM6rqqhtQ1K3tIG3BxBkvHgZOQeeDkGp9N1S2bNrpkj3k9tGu7C4LjGM88Z4zRXaWysLIy3kEu6YtMroJeCxADDHn+prMQG+vQltFasNkQIaNAinbjGG9SAfhXmL1HdWxqLUtcKJ5bZraVyS0bHcR659etFXH8ordyXhgvowTwyK5UZ8CpB/jQWkGQWaJOjxuhKkO24nHjnr60dc/yqtJD3IW7jLnIYK2F8MeNFX8EdHE7Tm0l7m5tr6yO7aDHJuX09lxR9trGlzzEq1k0jP7TSxGByfVhwfwoL+Ud/GxivtKzEWxkOQOvkQQfnTF1Ps7cuiXNm9vKx4Jixk+9TUa/AER2OhvY3l7cadbn6JOVMYEolx58jrzmrvQy4upcKwkEJwp88jFVVvoejE95pepG3ZhkbJAD8ehqy0pGW7vIZpu9kS2IMhzyeOaR18Dp2ihh03Q5LoGSC6tbovnH1lJz04qx1JNctp4n0OUTlkLzwSMGHQAYya5b6/qEJig1KxgkckBZEOCfDNLWbnTNyx37TQyxFlEgOCg4/sn8KS0wpo7pGqXl7O8GoaC8Ui43TAD4detWEy//ACJNkAUbjgMeRUHZ5kcmOLWBeRkhkRwMr59Dg/5UFqd5Jp2oSrdYuQzE7YPDJ8yfLw9KIyosCXU+1IiL5AU0yRxlXEjOw+qM8EnNNt5ElCNDHGQyhgM8jI8R1qLUZmjkjVykahWbAyCSAcChuSTVHbRYYXESyj2iNqn0PhUyOwdu9UKEPl4ZqOAJcG2lHQEOrLyMY6UzTXEjXO0AASEBeTx8TTb0ZMSSFpses295sttUE9hKSrRXIKlM54UngjJ8KOkgkhdkmQKy+CnINDWuozSRpFBfw30ZJwjJskBzjBB+WeenrTYruc3UcE8ZiwyhlfggE449PlW3p8/afq4Bmw9xbchDbV5Y4GcV1wI0Z3PCjOfA1X3F0lzcydztaGJ8Lg5DeP8AlT1nl1FLexhtRFGsbjdKSFYZ8TgnrV7+oLVS4KvsXVvkjfUwWP0eMzALuG3qf1oN9alRYWktym7jH3m8vTr76odXR7TVJbeWVIZx/oXJ3IR55xx59Kk0+KJtMuLk3BCICRiPBTgdMn381T9zlb5G7EOGbCzl7+LcSm/xVDkLUxWs72dkYRxPZorbxgq7cge/pWmA3KrbSuR0NdDp82uG5kz49EtiLbS21LtpYFaNRSRbaW2pdtcxU1EItppVLilUsFFT2st9OSF91os6PPKzq0mz2zjkE8ZNZazhvxNPHDaX0MMcIS1LSju9v1QoPODjnw6Vpu28trBdWqyv7Es8iujYweAcYOM+HrWbEk0kk6tLNhYiodpdik5AzgeeTg8fnXlU3HIzufJorGWdbKySUFGSIBlL7uQSPGk38tra4cqsNxAWJXcI22rk44GD5U2zV4tO01GAVlt1BwcjhiK6+raxFK+25lKbjgNBu4z/AFTWhckfA9dTvdPk779lb2uWPfMrOBkEgYHIFCR61YJbyC8sJHm3ExyzRo3d+QBGDgf+6PfWJdPt4IUjshFc73cMShJLHJGWH8KGg1EpY90NO+lo0p3Fpd+B6Hb4eHWo1twLaAoorYPFFe3ESlwGfhlCofeMD5+FafRoYVu79Y2Mtv8ARSqOjAkrxzxVHcXNi97NLdWrqSiYB4VgR44PhxVt2aI337KhRBb8K3gPjWdbbBiZeOO+N08cAmbyQR5YAeZPFE6PqWoWMyymNnDbs7gNzYPIwenTFFypo0t07WutBPacOudjK+eQPAjOfCiOz697uae6iEKsQwDjn2eMH0PhQjHcFNB2kahpepubuPSEjuUYKzfRlDyZ6Djr8aF7Kw/SZdXVfo84W6XbHKEYqMtuGDyKvoVeK7VFeOWAxrIrooJByc5x8KxX7M0ySO4a+juYGWZmjntUBIBc7h/Cr6pjt2tjUxWUUahZNP8AoxYZYR5BHzzxQ+ryRDThdw5khOdwmGNoOVHHvFVWi2jRTXLWPae4ZyoWMXStmPxxzkdaupRqn0OeLVLmzukkj2K8KqGDEEc49/lUtEvYjsmhMKdxtAVtpX7pGcilbKEi5UKerYA5PiamSNYjtUgBeNtDlwiHIOT08KWyqAdNPp+qywixaO6lb6yt+7bbnxPBJ44zVPMpj1GXck0ZUL7MxyV4zwfEVYQSGS6glZ7abeCuXHdZHPU8emKBnV49SvNsKRqgQGJ5NwUbR9qrHwWJ7lR2bINgcL1IrTac+LmJQQW7onBcg/X8unxqv2RxKFjjVFIBwvTmj9PjkMiMVYp3YB9kbSdxPz9Kpb3La2Mb2vbZrN68ZVJAsfDxgFhtGfHJ+FR3YfunM8iRRm3XKBMKvTnHrx4VztIqrqt+zBUG9VxjpgDz91Tapt3OrkD9yi4IHkPjWhfBTRbaBBsu7faihGU4Kj0rTMoHU48Kx0F7PpttFImd68BXOcZH/qjdO1u7urruWCHdzkqeBWrBlUI0zNnxOcrRfO4XIAz61BHuNy+7/hr095orZuUHHOOcUBJOqC8KyAOIQF28nd7WOlbHlVWZO27oM/s0sj7tYtptVcbZLi4U+ZZgP4VrNJkE1hBubMioFfPXIHX40sc6boaeFxVhGR5Uqk21yrNZVRlO1F53+rSQ4kRY5irP3DMeQOlVc82mSyQJLLMEi5IeN1G7pz8Ca9D1TSLmXWB9HljjiKiR3l3eyxzwMMPKh/2K5iGLiM5ALKUJ8uDk1wpY3dnWUYFD9Ejt105LZ5DEtuFjUnjG9sH305tH7QIT3V/kBuneK2Vz6geVaOXspbz2cTsbdpIodqh0GOpPw6mhbfsvF3ioGRDuDAxOwwfhjinppk0x4TKuY6++m2c9uVeFoXd37tCCMkj7Q8KrrW61m4jjkfSLOaN8924i8iQScE4Na/UY5tLgt7EB5Y0jYLsTPGMY9+CabpOkSpbxtZrGkUyFCsq8gcnoaYWmjM35umulZ9Hcr3KnMcrDcdo6+z4V211pNIDFotwn2wukmSV3HA5qzbQrwav3CXl0nsquRJhAQg5GG/Kgp+yFytwlpPc94zMHAbnnJIyS2eMGhp3sW5DTr+iTTTwS6RFlHcFo1OSQTk/V8TVXqk9ve2cTtZGJEn2j3heCSAOelWb9lYhqNxHIvtTykrscg5yfI+6uXfZGc6YbeaR1ZZSwYynBbA6nPTpSzhqexZinKHO4zsU1vbX8ofec4YFnJx/lVlod/cR2tysChmyGUEA4Jz51RaXoWrW0szm8gZO7borcHHAGfCnw2etR2rMbq2RnaMROIyB0bOfwoRg1sNOWp2WkUbPNcXL229wpkkOMY5GcY8T50+9vY30iRreF4pgAoYtu5GPP5eNVLWGsRwXrXN5GzSWxjBRCCCWXxx5ZqGHQk+lC2GrXbuh3d0S2PM+lMsbQgLqOpalHeXG27lAWZwqrgYAJ/SrLSJxJp0TXUzu7O29m6gAjBB8fH5VFrnZy0TWZoxqE2HBmOcnGcnyors/oFnH3k1xqsq2gjIzg4HI8KMoWtgqkXVlNBFGe7u4LiXGSJ124P/mKrTOjXk7uI4i5A2QJujOB5noKsoLbSyALbtIAo6BwMcZ8D4VQ3YkiubiOO5L+37MkeNrjzIAxS0+CScVwwua7R4u5KIzMBlt+D8BROku7M3dwo21Au6QENgZONwNUd4ZFVGXaoxtDMB6frU8Ut3EDJC7gqOSjEe/3/wCdVtMeMle4ZqdvHM160kPLYTcckrjAGCffxVJq8ji5lEQ3uFRQpOD0HpRtzLd3U0pT2Q7bnYHnGQPAeooztHZ29peRgMxMsQd9x6Hpx8jViurA2ivmtmlgKxwsxADKN3OOhx+HyoQx3OmSF57d4ZM4U44I58c1bxvIFkaA4KoASH5GT6CgfpmLS5s1Yu7tvDMxwoAJ4GOPhTpsFoliuGvtKuxcMZEhTdGCwHIBPgao4Y3aGMbeAzZz4c0dapfxKUeWJYrjahXJOd3QZI8qN0i0tAZ0uT3jgnJV8YBP+RplJsRqK4KYWzFSEQfMVq9AmWFD3jKq+wvPhhR+FLfpqzqGGJAoAw2c1JJJZuqpJuaKJgXGBnBIHn16Uyu7A6oszqFoDgzLkeVcoRf2KyhksNQ2kZH79OnzpVZ3pFfah5JdYe4urWa0sQkbSSgG5luQNiAA7kxznPhx41Foe+ztpYrko7kgiR3BL9Rk5c491US7z005v+4aeBL1Fh83NYX1b06aQF1D8GxFzFHbKQYGk2YI3KfE+tRW99tngkmnLRgkOgI2449/T86yu2f/AJFPjIaXd3RHFnB/fP61T3w/cvfbk2l/d2zzI0dziMHLKpGP45qL6ZF3ySd8uFyV9v0/rVkO5u/+XgT3tSMN3n/R249aV57b3Iupa+DYTaq2AI7uNeRxlTxgZ53ZomLV4oTueSKWQkAkyDgc9Dn3ViFiu/A2w92ad9Hu84/cZ9Ez+VH7l2B5/wAGy1PVUntGNjIiXKyDByhPvGc1nrG51ae9SDV76MWoALqwiGW2c8g561Xm0uTjf3Q/+qm/RZhnLR/9kCrF1m1UiLO/Bo7qaBLSUWtxB3rLtUhgc0Ho372OVNRkhGwp3RYcH62f4iqcW7eM8Q/sLS7gj/fIx7lWqo55J3/pc+qTjTiX+oIJISkbI5OOnvz+QqdIIluBLiEPz7Qb0rNBFA/2pt92B+VdDgHA1OVvUN/lV66mXgr70fBcGz7/AFze2DEYeeeCOfT1qyGnxPA0MUQihK5bZxkA1lnuFjU7r+UnPIHP5Vwami/7zMQfDBp++/lBeSDHnT5kuZ4rGVtywv3kRwSRjwOfMilYayViNpfxB1UhA3sr7I8zyaiOqW6MW2Ek8EmMZI+fuph1OxZsmzRz6oB/Cp37/SBSxkNz2jt7S5aK20wyojsd/epznHOCfSjIu22mXsDQLo00MjBgGYKQCBznHrQM7aXcSd5JosJY+IyPyrlrb2UDh7fSinjkOf0od2FfktjPHat7BSa/ZiS4cWzbZFwqkAn62eufSo9U7Q6Y8khmglDSKQG2ZK4DeR8gan7q1mfdJpz58w+PzqF9H0+aXvZbWfO0rtM3BBBHT3E0qzwv1lkpYK9EtweTXbC1WRZe9BlZVDdzxkc4z54I/HyotUjlUT2cm0suUDgqR7OOaHfs7psiFVluYi2N5Vw2cehXFWlpaWlvBHAk0myNAochSTjz6VdHP075ZSlDygWaO5ku4pHuVEKSIcHGMD4eQqErdqWVGiy7At0z9Yn+BFWZt7eUe3OwweCEB/gajuLOCT2/p/dnAG0p5D300suKvQwOLfBSG01AOs3sF1GB7S9ce/0oiJb/ALm9ZwNxkj28p0yx658gKJWyBUbNVj6dCpqS2sp0jmZry3kJlVhknoA3hj1pVkBomNieeOJE3QeyoHtMufjzSp5nvsn/AFD/ALX/AOaVHuLyTRPwTw6jARm5t+fvQyEfgc04yxSnNtNBu+7cZU/McfiKD/aLS5W+torgZ+svsOD/AFh+dSra2Vzn6NeNC5+xcjA/vDj+Fc+MV8Kzs5Oh6eXMa/Y5cNqFuC7WsYXwcAsvzBIoP9pXJGf3Y9yD86LktNR0395+8jT/AIkZyrfEcUl1OUtmeG3uR/1YwD8CMH8afVBcxMcvpbe+N2AHUbkjKyj3CNf0pn066Yj94/wAzV3HeadIT3tu9u3mpDr8uD/GiYreGc//AA7iCbPRd21/kaR5K4iYcnSZ8fuiZwT6g/1ZLjHoSK53eov1Scj1c/rWgnhkhYJMrxn+mCP41E5OMbSPXOaqfUNfpMzZTCyumxlQPRmFS/s+d+CY8+W/NWIYAZDc13cpGAwz7uaV9TMFlcNLc8OyD3DNO/ZgXrKP7tH52g5LH0zXOT9hseoNK+oyMlgi6ch/nT7gMU79nx/ef4ECpndY/wDSOiD1bFDyajaxjmfJ/o81O5lYSVbKEfWDt7zTha269IlPv5oI6xADgCV/7OKibWGLEJbnHm1Mo5n8g3LUQwL/ADUY+Fd2xDoo920VTftO5c4wiDzA/WuNdzMcG4ZvdxTdjI+WGmXhMYH1RUMk8EfLTIvvas/JIrZ7x2z/AEmzUfGRtxj0pl03lk0l49/AM/vd2OmATUD6ooHsxSHnxGKqeSeFU48jXS748QB1FOumgiUWL6lJ9lVA9TmoJL+c/wA4F9yfrQpOD1z76jY+QHwOasWOC4QaJ3upG+tLI3puxTBOfKoMA10rtGQD8asSrghMZ28FHvApLNJ6j1JqNEZiBk89AKMj05zgyewPXqfhQlkUeQ3XyQd/L94/3qVH/QLf70nzpVT9zjJrfkK1DTLrTWCXSMgJ4cfVb3Gh2yCGJB9eho3TO0F1YR9xJi5tG4ME53D4HwqzWw0vWkL6PKLe6AybWY8H+qaGmMvaet7sof8ARbef9Kez1S4szttpiinqv2T8Oho5b6xuQFvrHa5/nbYhSP7J4quurS4sJjDdQNE/kR1/Womfz6eVLqcdiztwn6kXI0tJ+dOu4rk+ETju3+R4NVl5BLbybLqB428nXrQu7xXirOz1q/gj7qSRZ4PGK4G8H3Ubi/wK1kX5I7XUL+2XFvcsE+453L8jRK6skn+u2ETHxeBzGfzFSd5o95/p43sZT9qEl0/u9QKUmh3LxGWzlivIh9qBske9etRwdeSicMGTbJGjjGynANpdiJz9i6Ur/iGR/Ch7q11eEFltlkix9eECQfMUK8bx5Rwyt5bcU6B5YTvhmkik/wCk5U/hSxUE94mXJ9KxS3g6A55rs8NK4XxA4qOUSsgPeuQfNs1eHVJpEH06GG+X708Y3D+0OaQ/Y0w5insmPimJE+XWr49v4MOT6bmhwrM53WMbh05zTsx7SVVCfMGr2TQpLnnTbu3vP6Ifu3/utiqe6sLmyLLeQywNn7aYzVtGKeOUNpIgZcnI6U1jtHOT8BTiAgJVyQPug1HuGct+IqC0IEt7QzjypxGVzjB9elcVyWG32vcRxXDk5JyR5GgShoQ5z1PnniugY+r18cmnBBjO7HjjmkzNkmLb0o0A6AV5JAx1z1p29DyWBA86CfeD7Y5P40mRtoCnGeuelAgSSrfUGfj+VcwG5wKbbK82I44t/PORxVhDp20hriQlvupjHzqqeaEOWBgQt5JDtVd7eS0ZBp0xGJ32gfZXk/OjkVEGI0VB6eNSKeMj+NZJ9S5e0VsjjRYxhF204dafvz9Yfhk1Gx545HrxVDk3yAdv9VrtM2nz/wAVKl1EACzxNtO3b7qfCTkMpAYHIIOCKTFcc/jUed46+7FbEe6b8mitO0Ugi+i6zAt7a9MsBvX3GpZezltqEf0jQLrvV+1BM2HHoKy6yMhw3PvFT215LBKJrSVo5F6MODVqne0lZllgp3jdP+h0sM1szw3MLRSJ1RhyK4DkceHWtPY9prLVovoOvQAtjiZR9X9KH1Lso8Ma3Okub63b7uNyj86ksVq4kj1NPTlVP+jPknpnFTwSPDIGid0bqGVyP4VAwEbMJEZWXgq3BFcWRRx0NV7o0emX5NAmuSuoj1GCG9i85Bh/gwqRYNFv+LS5a1mPGy45Hwas43T63PvrvHGadT+JblTwLmDot73Rb2xUs8Bkj8JIvaXHw/OqpnP1cfKjbLVbuwObS4aNfuA8fKj21bTb4H9qaeFkPWe1O1viKbTF8bCassOVf7FCpOeCc+flRsGs39uvdictGPsSAOD8DmrBuzsN0N2j6jBOTz3UvsOP1/Cqe+028smxdQPGPvEcfOppnHdE7mLJswp7vTLraNQ0pY2H87aSFP8ACcimtpGmTjbY6qFJ/mrxNn+IcVXDkngFh5008Y6Z8aZZZLkz5Ogwy3SoJuezWqwL3kdmZU8JLc7wR/Zqomjkj4k3Bh13DkfpVlBdT2zb7aaSFvNGIqz/AJQ3M0QS/it71eh7+ME/MYqxZYswz+mSXsdmUUys3s569RyPnXWWTgyFQD861Abs/dIRLZ3Fg56tC/eIfgeaItuzmnSsGs7+C4bGNsjd2fkakpKvTuYsnTZcfMTLwQyy4WNDt8WI4o6HToYzmUlz5dB/nV5e6Xc2akSWzKg6Mo4/CgdzY8/KsOXLk44MzTGhMj2cAe6nrtXhhz54pvOckc+QNckcrxkGs1fIopOvsMDTSW6kAe40jvU45HpSAkc4wPnUYDpZgRls+mK4WVjwOa4zEeyyA1w44HShQB20eY+ZpVzP9FflSqUQBZd5HODXVUJzzUtxbyQzNFMNrqSDmm79wwBwPHFbT3K33GmQNnPHwpIoYHHT0rpHH6iknA6NQI0hvdrgcY9asNM1m90uRWt522DqjZKke6hNu4ccVC0bAck00W09hZQUlTWxuItQ0TtGmzVIFtrvosoGOfDn9aqtY7KXtiGnhb6Vb9d68sPhWcD7eqk/ex4Ve6N2mvtLXaG76AH6jn+B8KuU4z9xjeKeLfE9vDKbf5ZPOMGuEk9Mj31vGTQe0xR1lFvdkYwCAT8PGs1rXZ/UNL3vKneW/TvV6D9KE8NbrdD4+qjJ6ZbMpwSeox76eD7Pr76ibIK7eRUkZB6mqqNSdnVaRegHw4q1su0upWqmOST6RD9ycbh8zVPuzn08c10YYc85oxk0VzxxnyjRfSOzuo4+lW8mnyt9uDlflUcvZS6dO9024gvYOoKPhvlVAVXbgGnQ3UttIHikZGHQq2MVZ3E+UVdmUfZL+SS5sri0JW5gkiPk4xQ+0DPJrQW3a+8jUQahHFexeUqjJ+NE/wD81qvKvJpszeB5Qn/z3UdEXwxe7OHvj/BlhgnJPNd6g+FX1/2Tv4EEtkyXkJ8YTk1QXEUkMpiljkjbxV1IpXGUeR45YT9rCrTVb+xwLW6njA+yHyvyPFWKdpBJzqGn29x5ug7t/mKoEB3YzTmByQrYPlQtiTwY5+5Gmjn0G8I2zXFi/lMu9fmKdLoVyw3Wbw3kR8YXBPyrLBm2njP9WupPJE2+KRo2+8pwaVxg+UYsn0zG/bsXNzbzQErPbSRsPvcUGE3MNp4z0NOtu1GqQYRrhbmP7lyoYfrRsOt6Ldf7Q01raQnBltn4HwpH08XwzDk+nZY8bgJVRnk1Ex9seWKuGs9MvmA0nVINzdIp/Yb8aGu9E1K2DGS0kaNftxAsuPPIqqeGcfgxTxThtJFdz5r86VN2P938KVUaWVm67f2FubZLkKRKDjIPWsAGIO0E48q5Srq9QvWer6FvtInY7lGa4vI5pUqzm0X1elcViGA8KVKgiMdJ1wBgYqEnj3UqVMhWcjmdGyhKkDIIOCDW87GaveXzvZXcgliVOrDJPvpUq0YeTH1cVpuhdsdCsIbcXdvF3Mg4Ij4U/CsOv1mXypUqmVKyvo5Nqmxh+tXdoOePDwpUqoOgjm4gsB0HSk/QmlSoEI3HsA05WO0UqVMKwuy1K8sAz2tw8ZHgDwfhW27M3zdooDFq0FvOFGAxj5pUqvxNmHqoqrKvth2esNMhS4sxIjN1XfkVliAyZPlSpUMiVj9JJyx7kYGHYDypjD2hSpVUzQdkAAGKGyd2M12lQCIqPyoq01S/sDi0u5o1H2Qxx8qVKnixJxTW6LAduNawPatz6mIUqVKrdTMvah4P/9k=) center/cover no-repeat}
 .top .in{position:relative;max-width:560px;margin:0 auto}
 .top h1{margin:0;font-size:clamp(46px,14vw,72px);line-height:1.05}
 .top p{margin:8px 0 0;max-width:34ch;color:#cfe3d6}
@@ -71,13 +71,16 @@ h2{margin:0 0 10px;font-size:24px;line-height:1.3}
 @keyframes pulse{50%{opacity:.5}}
 .empty{grid-column:1/-1;padding:16px;background:var(--card);border:2px dashed var(--line);border-radius:var(--r);color:var(--muted);text-align:center}
 
-.durs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.durs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
 .dur{padding:12px 6px;text-align:center;background:var(--card);border:2px solid var(--line);border-radius:var(--r)}
 .dur b{display:block;font-weight:600}
 .dur small{color:var(--muted);font-size:14px}
 .dur[aria-pressed="true"]{background:var(--night);border-color:var(--night);color:#fff}
 .dur[aria-pressed="true"] small{color:#b7d3c1}
-.dur:disabled{background:var(--grey);color:var(--grey-ink);cursor:not-allowed;text-decoration:line-through}
+.dur:disabled{background:var(--grey);color:var(--grey-ink);cursor:not-allowed}
+.dur:disabled b,.dur:disabled small:not(.why){text-decoration:line-through}
+.dur .why{display:block;margin-top:2px;font-size:12px;font-weight:600;color:var(--red)}
+.dur-note{margin:10px 0 0;font-size:14px;color:var(--muted)}
 
 label{display:block;font-weight:500;margin-bottom:4px}
 .row{margin-bottom:14px}
@@ -93,6 +96,11 @@ input[aria-invalid="true"]{border-color:var(--red)}
 .banner button{margin-top:8px;padding:6px 12px;border:2px solid var(--ink);border-radius:10px;background:transparent;font-weight:600}
 .foot{max-width:560px;margin:36px auto 0;padding:0 16px;color:var(--muted);font-size:14px}
 .foot a{color:var(--turf)}
+.policy{padding:12px 14px;background:var(--card);border:2px solid var(--line);border-radius:var(--r);font-size:14px;color:var(--muted)}
+.policy strong{display:block;margin-bottom:4px;color:var(--ink);font-weight:600}
+.policy ul{margin:0;padding-inline-start:18px}
+.policy li+li{margin-top:2px}
+#policyManage{margin-bottom:16px}
 
 .bar{position:fixed;inset-inline:0;bottom:0;background:var(--night2);color:#fff;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));box-shadow:0 -4px 16px rgba(0,0,0,.25)}
 .bar .in{max-width:560px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -125,13 +133,7 @@ input[aria-invalid="true"]{border-color:var(--red)}
 <body>
 
 <header class="top" id="top">
-  <svg class="art" viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true">
-    <g opacity=".13"><rect x="14" y="14" width="372" height="192"/><line x1="200" y1="14" x2="200" y2="206"/><rect x="14" y="70" width="52" height="80"/><rect x="334" y="70" width="52" height="80"/></g>
-    <g opacity=".3" stroke="#ffc933">
-      <circle cx="82" cy="110" r="56"/><circle cx="82" cy="110" r="10"/>
-      <path d="M82 54v28M82 138v28M26 110h28M110 110h28M42 70l20 20M122 150l-20-20M122 70l-20 20M42 150l20-20"/>
-    </g>
-  </svg>
+  <div class="art" aria-hidden="true"></div>
   <div class="in">
     <h1 id="title" dir="ltr" style="text-align:right">Mal3ab El Mat7an</h1>
     <p>اختار اليوم والساعة وابعت اسمك ورقمك، والحجز بيتأكد فورًا.</p>
@@ -168,6 +170,7 @@ input[aria-invalid="true"]{border-color:var(--red)}
   <section id="s-dur" hidden>
     <h2>اختار المدة</h2>
     <div class="durs" id="durs"></div>
+    <p class="dur-note" id="durNote" aria-live="polite" hidden></p>
   </section>
 
   <section id="s-info" hidden>
@@ -180,11 +183,15 @@ input[aria-invalid="true"]{border-color:var(--red)}
       </div>
       <div class="row">
         <label for="phone">رقم التليفون</label>
-        <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" maxlength="11" dir="ltr" style="text-align:right" placeholder="01XXXXXXXXX">
+        <input type="tel" id="phone" name="phone" inputmode="numeric" autocomplete="tel" maxlength="18" dir="ltr" style="text-align:right" placeholder="01XXXXXXXXX">
         <div class="err" id="phoneErr"></div>
       </div>
       <input class="trap" type="text" id="website" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
     </form>
+  </section>
+
+  <section id="s-policy" hidden>
+    <div class="policy" id="policyBook"></div>
   </section>
 
   <div class="alert" id="alert" role="alert" hidden></div>
@@ -193,15 +200,19 @@ input[aria-invalid="true"]{border-color:var(--red)}
 <section class="manage" id="manage" hidden>
   <h2>إلغاء أو تعديل حجزك</h2>
   <p class="hint">اكتب رقم الحجز الي ظهرلك وقت الحجز ورقم تليفونك.</p>
+  <div class="policy" id="policyManage"></div>
+  <div class="row" id="restoreRow" hidden>
+    <button class="btn" id="restoreBtn" type="button" style="width:100%">استرجاع آخر حجز</button>
+  </div>
   <form id="lookForm" novalidate>
     <div class="row">
       <label for="bid">رقم الحجز</label>
-      <input type="text" id="bid" inputmode="text" dir="ltr" style="text-align:right" maxlength="20" autocomplete="off">
+      <input type="text" id="bid" inputmode="text" dir="ltr" style="text-align:right" maxlength="30" autocomplete="off" autocapitalize="characters" spellcheck="false">
       <div class="err" id="bidErr"></div>
     </div>
     <div class="row">
       <label for="mphone">رقم التليفون</label>
-      <input type="tel" id="mphone" inputmode="numeric" maxlength="11" dir="ltr" style="text-align:right" placeholder="01XXXXXXXXX" autocomplete="tel">
+      <input type="tel" id="mphone" inputmode="numeric" maxlength="18" dir="ltr" style="text-align:right" placeholder="01XXXXXXXXX" autocomplete="tel">
       <div class="err" id="mphoneErr"></div>
     </div>
     <button class="btn main" id="lookBtn" type="submit" style="width:100%">اعرض حجزي</button>
@@ -224,18 +235,100 @@ input[aria-invalid="true"]{border-color:var(--red)}
 <noscript><p style="padding:20px;text-align:center">الصفحة دي محتاجة JavaScript عشان تشتغل.</p></noscript>
 
 <script>
+/* =====================================================================
+   عقود الـ API (لازم الـ n8n webhooks تلتزم بيها 1 لـ 1)
+   ---------------------------------------------------------------------
+   Headers في كل الطلبات (GET و POST):
+     X-Client-Meta : app=<version>;sid=<session id>;ts=<ms>      (للـ origin / rate-limit، مش سرّ)
+     X-Client-Token: <CONFIG.CLIENT_TOKEN>  (بيتبعت بس لو اتضبط، placeholder)
+     ngrok-skip-browser-warning: 1          (بس لو الرابط ngrok)
+
+   مفاهيم الوقت (Africa/Cairo):
+     - date = "يوم العمل" بصيغة YYYY-MM-DD.
+     - start بصيغة HH:MM. الميعاد اللي بيبدأ من 00:00 لحد 04:00 بيتبع يوم العمل
+       اللي قبله (بيحصل فعليًا بعد نص الليل). يعني start "01:00" مع date "2026-11-24"
+       = الساعة 1 صباح يوم 25.
+     - end بصيغة HH:MM وممكن تعدّي نص الليل (start 23:00 + 120 دقيقة = end 01:00). duration لازم 60 أو 120 والـ backend يرفض غير كده.
+     - لو end ناقصة أو غلط، الواجهة بتحسبها من start + duration.
+
+   1) GET /club-availability?date=YYYY-MM-DD&exclude=<bookingId>   (date و exclude اختياريين)
+      exclude = حجز بيتعدّل، لازم الـ backend يعتبر ميعاده فاضي.
+      نجاح:
+        { "ok": true, "date": "2026-11-24",
+          "days":   [ { "date": "2026-11-24", "label": "النهارده", "short": "24/11" } ],
+          "fields": [ { "id": "field_1", "name": "الملعب 1", "pricePerHour": 200,
+                        "slots": [ { "start": "07:00", "free": true,
+                                     "durations": [ { "mins": 60,  "price": 200, "ok": true },
+                                                    { "mins": 120, "price": 400, "ok": false } ] } ] } ] }
+        المدد المسموحة: 60 و120 بس (مفيش 90). durations[].ok = false لو الساعة اللي بعدها محجوزة أو برّه مواعيد النادي.
+      فشل (مثلًا تاريخ قديم): { "ok": false, "message": "...", "days": [ ...نفس الشكل ] }
+
+   2) POST /club-book
+      طلب:  { "requestId": "<uuid>", "field": "field_1", "date": "2026-11-24", "start": "23:00",
+              "duration": 60, "name": "أحمد علي", "phone": "01012345678", "website": "" }
+              website = honeypot، لازم تكون فاضية، أي قيمة = بوت (ارفض).
+      نجاح: { "ok": true, "bookingId": "AB12CD", "field": "field_1", "fieldName": "الملعب 1",
+              "dayName": "الثلاثاء", "date": "2026-11-24", "start": "23:00", "end": "00:00",
+              "duration": 60, "price": 200, "name": "أحمد علي", "phone": "01012345678",
+              "canEdit": true }
+      فشل:  { "ok": false, "reason": "conflict" | "past" | "invalid" | "rate_limited", "message": "..." }
+      نفس requestId بيرجّع نفس الرد الأصلي بدون ما يحجز تاني (idempotent).
+
+   3) POST /club-lookup
+      طلب:  { "bookingId": "AB12CD", "phone": "01012345678" }
+      نجاح: { "ok": true, "booking": { نفس حقول نجاح club-book + "canEdit": true | false,
+                                       "editMessage": "اختياري: سبب منع التعديل" } }
+      فشل:  { "ok": false, "message": "..." }
+
+   4) POST /club-modify
+      طلب:  { "requestId": "<uuid>", "bookingId": "AB12CD", "phone": "01012345678",
+              "field": "field_1", "date": "2026-11-25", "start": "20:00", "duration": 60 }
+      نجاح: نفس شكل نجاح club-book (بالبيانات الجديدة كاملة).
+      فشل:  { "ok": false, "reason": "conflict" | "past" | "not_editable" | "invalid" | "rate_limited", "message": "..." }
+
+   5) POST /club-cancel
+      طلب:  { "requestId": "<uuid>", "bookingId": "AB12CD", "phone": "01012345678" }
+      نجاح: { "ok": true }
+      فشل:  { "ok": false, "reason": "not_editable" | "invalid" | "rate_limited", "message": "..." }
+
+   ملاحظات:
+     - requestId بيتولّد لكل محاولة، ونفس الـ id بيتبعت تاني لو النت قطع في نص الطلب
+       (إعادة نفس الطلب)، وبيتغيّر لما تتغيّر البيانات أو لما يجي رد نهائي من السيرفر.
+     - الرد بـ HTTP 429 بيتعامل معاه كـ rate_limited. أي 4xx فيه JSON بيتعرض message بتاعه.
+     - الفحوصات اللي هنا في الواجهة للراحة بس؛ الأمان الحقيقي (قفل الحجز، rate limit،
+       تنضيف الاسم، idempotency) لازم يتنفّذ في الـ backend.
+   ===================================================================== */
 (function () {
   'use strict';
 
   var CONFIG = {
     API_BASE: 'https://train-crestless-supervise.ngrok-free.dev/webhook',
     CLUB_NAME: 'Mal3ab El Mat7an',
-    CLUB_PHONE: ''
+    CLUB_PHONE: '',            /* اكتب رقم النادي هنا، مثال: '01012345678'. لو فاضي بنعرض بديل من غير رقم */
+    SEND_CLIENT_HEADERS: true, /* لو ظهرت مشكلة CORS على الهيدرز الجديدة، خليها false لحد ما الـ backend يسمح بيها */
+    CLIENT_TOKEN: '',          /* placeholder لتوكن بسيط (مش سرّي، الواجهة مكشوفة) */
+    APP_VERSION: '2026.11.24',
+    CANCEL_NOTICE_HOURS: 0,    /* لو النادي بيشترط إلغاء قبل الميعاد بكام ساعة، اكتب الرقم هنا (والـ backend لازم يطبّقه) */
+    POLICY_EXTRA: []           /* سطور إضافية لسياسة النادي، مثال: ['العربون مش بيترجع'] */
   };
 
-  var DUR_LABELS = { 60: 'ساعة', 90: 'ساعة ونص', 120: 'ساعتين' };
-  var state = { days: [], date: null, fields: [], fieldId: 'field_1', slot: null, dur: 60, loading: true, submitting: false, modify: null, found: null };
+  var DAY_START = 420;      /* 07:00، بداية يوم العمل */
+  var DAY_END_MIN = 1680;   /* 04:00 اليوم اللي بعده، آخر ميعاد بداية */
+  var DUR_LABELS = { 60: 'ساعة', 120: 'ساعتين' };
+  var HHMM_RE = /^\d{1,2}:\d{2}$/;
+  var ISO_RE = /^\d{4}-\d{2}-\d{2}$/;
+  var PHONE_RE = /^01[0125][0-9]{8}$/;
+  var ID_RE = /^[A-Z0-9][A-Z0-9_-]{1,19}$/;   /* لو شكل رقم الحجز عندك مختلف عدّل هنا */
+  var NAME_RE;
+  try { NAME_RE = new RegExp("^[\\p{L}\\p{M} .'\u2019\\-]{2,60}$", 'u'); }
+  catch (e) { NAME_RE = /^[\u0600-\u06FFA-Za-z .'\u2019\-]{2,60}$/; }
 
+  var KEYS = { name: 'club_name', phone: 'club_phone', last: 'club_last_id', sid: 'club_sid' };
+  var state = { days: [], date: null, fields: [], fieldId: 'field_1', slot: null, dur: 60, loading: true, submitting: false, cancelling: false, modify: null, found: null, seq: 0, cairoDay: null };
+  var lk = { fails: 0, until: 0 };
+  var pendingIds = {};
+
+  /* ---------- helpers عامة ---------- */
   function $(id) { return document.getElementById(id); }
   function el(tag, props, kids) {
     var n = document.createElement(tag);
@@ -251,59 +344,226 @@ input[aria-invalid="true"]{border-color:var(--red)}
     return n;
   }
   function clear(n) { while (n.firstChild) { n.removeChild(n.firstChild); } }
+  function pad2(n) { return (n < 10 ? '0' : '') + n; }
+
+  /* ---------- تخزين الجلسة (sessionStorage بدل localStorage عشان الأجهزة المشتركة) ---------- */
+  var store = {
+    get: function (k) { try { return window.sessionStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { window.sessionStorage.setItem(k, v); } catch (e) { /* ignore */ } },
+    del: function (k) { try { window.sessionStorage.removeItem(k); } catch (e) { /* ignore */ } }
+  };
+  function wipeLegacy() {
+    try { ['club_name', 'club_phone', 'club_last_id'].forEach(function (k) { window.localStorage.removeItem(k); }); } catch (e) { /* ignore */ }
+  }
+  function randHex(n) {
+    var out = '', c = window.crypto || window.msCrypto;
+    if (c && c.getRandomValues) { var a = new Uint8Array(n); c.getRandomValues(a); for (var i = 0; i < n; i++) { out += (a[i] < 16 ? '0' : '') + a[i].toString(16); } return out; }
+    for (var j = 0; j < n; j++) { out += ('0' + Math.floor(Math.random() * 256).toString(16)).slice(-2); }
+    return out;
+  }
+  function uuid() {
+    var c = window.crypto;
+    if (c && c.randomUUID) { return c.randomUUID(); }
+    return Date.now().toString(36) + '-' + randHex(12);
+  }
+  function sessionId() {
+    var s = store.get(KEYS.sid);
+    if (!s) { s = randHex(8); store.set(KEYS.sid, s); }
+    return s;
+  }
+
+  /* ---------- تنضيف وتحقق من المدخلات ---------- */
+  function enDigits(s) {
+    return String(s || '').replace(/[\u0660-\u0669\u06F0-\u06F9]/g, function (c) {
+      var n = c.charCodeAt(0); return String(n >= 0x06F0 ? n - 0x06F0 : n - 0x0660);
+    });
+  }
+  function stripInvisible(s) { return String(s || '').replace(/[\u0000-\u001F\u007F-\u009F\u200B-\u200F\u202A-\u202E\u2060-\u2069\uFEFF]/g, ''); }
+  function cleanName(raw) {
+    var s = stripInvisible(raw);
+    try { s = s.normalize('NFC'); } catch (e) { /* ignore */ }
+    s = s.replace(/\s+/g, ' ').trim().replace(/^[.'\u2019\-\s]+/, '');
+    return s.slice(0, 60);
+  }
+  function nameError(s) {
+    if (s.replace(/[ .'\u2019\-]/g, '').length < 2) { return 'اكتب اسمك.'; }
+    if (!NAME_RE.test(s)) { return 'الاسم لازم حروف بس (من غير أرقام أو رموز).'; }
+    return '';
+  }
+  function normPhone(raw) {
+    var p = enDigits(stripInvisible(raw)).replace(/\D/g, '');
+    if (p.indexOf('0020') === 0) { p = '0' + p.slice(4); }
+    else if (p.indexOf('20') === 0 && p.length === 12) { p = '0' + p.slice(2); }
+    else if (p.length === 10 && p.charAt(0) === '1') { p = '0' + p; }
+    return p;
+  }
+  var PHONE_MSG = 'اكتب رقم موبايل مصري صح، 11 رقم وبيبدأ بـ 010 أو 011 أو 012 أو 015.';
+  function normId(raw) { return enDigits(stripInvisible(raw)).toUpperCase().replace(/\s+/g, ''); }
+  function clubPhone() {
+    var p = String(CONFIG.CLUB_PHONE || '').trim();
+    return /^\+?[0-9][0-9 \-]{6,18}$/.test(p) ? p : '';
+  }
+  function contactText() { return clubPhone() ? 'كلّم النادي على ' + clubPhone() : 'كلّم إدارة النادي مباشرة'; }
+
+  /* ---------- الوقت (Africa/Cairo) ---------- */
+  function toMin(hhmm) { var p = String(hhmm).split(':'); return parseInt(p[0], 10) * 60 + parseInt(p[1], 10); }
+  function validHHMM(v) {
+    if (typeof v !== 'string' || !HHMM_RE.test(v)) { return false; }
+    var p = v.split(':'); return +p[0] < 24 && +p[1] < 60;
+  }
+  /* الميعاد من 00:00 لحد 06:59 بيتحسب بعد نص الليل، يعني بيتزوّد عليه 24 ساعة */
+  function normMin(m) { return m < DAY_START ? m + 1440 : m; }
+  function calcEnd(start, dur) {
+    if (!validHHMM(start) || !(dur > 0)) { return ''; }
+    var e = (toMin(start) + dur) % 1440;
+    return pad2(Math.floor(e / 60)) + ':' + pad2(e % 60);
+  }
+  function durOf(d) {
+    var v = Number(d && (d.duration != null ? d.duration : (d.mins != null ? d.mins : d.dur)));
+    return (v > 0 && isFinite(v)) ? v : 0;
+  }
   function ar12(min) {
     var h = Math.floor(min / 60) % 24, m = min % 60, h12 = h % 12;
     if (h12 === 0) { h12 = 12; }
-    var w = h < 5 ? 'بليل' : (h < 13 ? 'الصبح' : (h < 15 ? 'الضهر' : (h < 20 ? 'العصر' : 'بليل')));
-    return h12 + ':' + (m < 10 ? '0' : '') + m + ' ' + w;
+    var w = h < 5 ? 'بليل' : (h < 12 ? 'الصبح' : (h < 15 ? 'الضهر' : (h < 20 ? 'العصر' : 'بليل')));
+    return h12 + ':' + pad2(m) + ' ' + w;
   }
-  function toMin(hhmm) { var p = String(hhmm).split(':'); return parseInt(p[0], 10) * 60 + parseInt(p[1], 10); }
-  function normMin(m) { return m < 420 ? m + 1440 : m; }
+  /* نص الوقت: من start + end، ولو end ناقصة بنحسبها من start + duration (بتعدّي نص الليل صح) */
   function lab(d) {
-    if (d.start && d.end) { return ar12(normMin(toMin(d.start))) + ' - ' + ar12(normMin(toMin(d.end))); }
-    return d.startLabel + ' - ' + d.endLabel;
+    if (!d) { return ''; }
+    var dur = durOf(d);
+    if (validHHMM(d.start)) {
+      var s = normMin(toMin(d.start)), e = null;
+      if (validHHMM(d.end)) { e = normMin(toMin(d.end)); while (e <= s) { e += 1440; } }
+      else if (dur) { e = s + dur; }
+      if (e !== null) { return ar12(s) + ' - ' + ar12(e); }
+      if (d.endLabel) { return ar12(s) + ' - ' + d.endLabel; }
+      return ar12(s);
+    }
+    if (d.startLabel && d.endLabel) { return d.startLabel + ' - ' + d.endLabel; }
+    return d.startLabel || '';
   }
-  function enDigits(s) { return String(s || '').replace(/[٠-٩]/g, function (d) { return '٠١٢٣٤٥٦٧٨٩'.indexOf(d); }); }
+  function fmtDate(d) { return (d && ISO_RE.test(d)) ? d.split('-').reverse().join('/') : (d || ''); }
+  function weekdayAr(iso) {
+    if (!ISO_RE.test(iso || '')) { return ''; }
+    try {
+      var p = iso.split('-');
+      return new Intl.DateTimeFormat('ar-EG', { weekday: 'long', timeZone: 'UTC' }).format(new Date(Date.UTC(+p[0], +p[1] - 1, +p[2], 12)));
+    } catch (e) { return ''; }
+  }
+  function dayLabel(d) { return ((d.dayName || weekdayAr(d.date)) + ' ' + fmtDate(d.date)).replace(/^\s+/, ''); }
+
+  /* وقت القاهرة الحالي. hour12:false ممكن يرجّع "24" الساعة 12 بالليل فبناخده %24 والتاريخ بيبقى صح */
+  function cairoNow() {
+    var o = {};
+    try {
+      new Intl.DateTimeFormat('en-CA', { timeZone: 'Africa/Cairo', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false })
+        .formatToParts(new Date()).forEach(function (p) { o[p.type] = p.value; });
+    } catch (e) { o = {}; }
+    var y = parseInt(o.year, 10), mo = parseInt(o.month, 10), d = parseInt(o.day, 10), h = parseInt(o.hour, 10), mi = parseInt(o.minute, 10);
+    if (!(y && mo && d) || isNaN(h) || isNaN(mi)) {
+      var t = new Date(); y = t.getFullYear(); mo = t.getMonth() + 1; d = t.getDate(); h = t.getHours(); mi = t.getMinutes();
+    }
+    return { date: y + '-' + pad2(mo) + '-' + pad2(d), min: (h % 24) * 60 + mi };
+  }
+  function dayNum(iso) { var p = iso.split('-'); return Date.UTC(+p[0], +p[1] - 1, +p[2]) / 86400000; }
+  function nowAbs() { var n = cairoNow(); return dayNum(n.date) * 1440 + n.min; }
+  /* الدقيقة المطلقة للميعاد: يوم العمل + start (المواعيد بعد نص الليل بتتحسب على اليوم اللي بعده) */
+  function slotAbs(date, start) { return dayNum(date) * 1440 + normMin(toMin(start)); }
+  function isPast(s) { return !!state.date && slotAbs(state.date, s.start) <= nowAbs(); }
+  /* يوم العمل خلص لما آخر ميعاد فيه (04:00 اليوم اللي بعده) يعدّي */
+  function dayEnded(date) { return !!date && dayNum(date) * 1440 + DAY_END_MIN <= nowAbs(); }
+  function safeDate() {
+    if (!state.date) { return null; }
+    if (!state.days.some(function (d) { return d.date === state.date; })) { return null; }
+    return dayEnded(state.date) ? null : state.date;
+  }
+
+  /* ---------- state helpers ---------- */
   function curField() { return state.fields.filter(function (f) { return f.id === state.fieldId; })[0]; }
   function curSlot() { var f = curField(); return f ? f.slots.filter(function (s) { return s.start === state.slot; })[0] : null; }
   function curDay() { return state.days.filter(function (d) { return d.date === state.date; })[0]; }
-
-  /* وقت القاهرة الحالي عشان نعرف الميعاد عدّى ولا لسه */
-  function cairoNow() {
-    var o = {};
-    new Intl.DateTimeFormat('en-CA', { timeZone: 'Africa/Cairo', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false })
-      .formatToParts(new Date()).forEach(function (p) { o[p.type] = p.value; });
-    return { date: o.year + '-' + o.month + '-' + o.day, min: (parseInt(o.hour, 10) % 24) * 60 + parseInt(o.minute, 10) };
+  function durOpt(s, mins) { return s ? s.durations.filter(function (d) { return d.mins === mins; })[0] : null; }
+  function firstOk(s) { return s ? s.durations.filter(function (d) { return d.ok; })[0] : null; }
+  function fieldById(id) { return state.fields.filter(function (f) { return f.id === String(id); })[0]; }
+  function fieldNameOf(d) {
+    var f = d && d.field ? fieldById(d.field) : null;
+    var c = curField();
+    return (d && d.fieldName) || (f && f.name) || (c && c.name) || CONFIG.CLUB_NAME;
   }
-  function dayNum(iso) { var p = iso.split('-'); return Date.UTC(+p[0], +p[1] - 1, +p[2]) / 86400000; }
-  function isPast(s) {
-    var n = cairoNow(), m = toMin(s.start);
-    if (m < 420) { m += 1440; }
-    return dayNum(state.date) * 1440 + m <= dayNum(n.date) * 1440 + n.min;
+  function authPhone(b) { return b.authPhone || b.phone; }
+  function fmtPrice(p) { return (p === undefined || p === null || p === '') ? '—' : p + ' جنيه'; }
+
+  /* الساعة اللي بعد الميعاد: ليه المدد الأطول مقفولة؟ */
+  function nextSlotOf(s) {
+    var f = curField(); if (!f) { return null; }
+    var target = normMin(toMin(s.start)) + 60;
+    return f.slots.filter(function (x) { return normMin(toMin(x.start)) === target; })[0] || null;
+  }
+  function blockReason(s) {
+    var n = nextSlotOf(s);
+    if (!n) { return 'closed'; }
+    if (isPast(n)) { return 'past'; }
+    if (!n.free) { return 'booked'; }
+    return 'other';
+  }
+  var WHY_SHORT = { booked: 'محجوز بعدها', past: 'عدّت', closed: 'النادي بيقفل', other: 'مش متاحة' };
+  var WHY_LONG = { booked: 'الساعة اللي بعد ميعادك محجوزة', past: 'الساعة اللي بعد ميعادك عدّت', closed: 'النادي بيقفل بعد الساعة دي', other: 'مش متاحة دلوقتي' };
+
+  /* بيظبط الميعاد والمدة المختارين بعد أي تحديث. بيرجّع كود لو اتغيّر حاجة */
+  function syncSelection() {
+    if (!state.slot) { return ''; }
+    var s = curSlot();
+    if (!s || !s.free || isPast(s)) { state.slot = null; return 'gone'; }
+    var cur = durOpt(s, state.dur);
+    if (cur && cur.ok) { return ''; }
+    var first = firstOk(s);
+    if (first) { state.dur = first.mins; return 'dur'; }
+    state.slot = null; state.dur = null; return 'none';
+  }
+  function syncMsg(code) {
+    if (code === 'gone') { return 'الميعاد اللي اخترته مبقاش متاح. اختار ميعاد تاني.'; }
+    if (code === 'dur') { return 'المدة اللي اخترتها مبقتش متاحة، اخترنالك أقرب مدة متاحة.'; }
+    return 'الميعاد ده مش متاح لأي مدة دلوقتي. اختار ميعاد تاني.';
   }
 
   /* ---------- API ---------- */
   function baseHeaders() {
     var h = {};
     if (CONFIG.API_BASE.indexOf('ngrok') !== -1) { h['ngrok-skip-browser-warning'] = '1'; }
+    if (CONFIG.SEND_CLIENT_HEADERS) {
+      h['X-Client-Meta'] = 'app=' + CONFIG.APP_VERSION + ';sid=' + sessionId() + ';ts=' + Date.now();
+      if (CONFIG.CLIENT_TOKEN) { h['X-Client-Token'] = CONFIG.CLIENT_TOKEN; }
+    }
     return h;
   }
   function jsonHeaders() { var h = baseHeaders(); h['Content-Type'] = 'application/json'; return h; }
   function request(path, options, timeoutMs) {
-    var ctrl = new AbortController();
-    var timer = setTimeout(function () { ctrl.abort(); }, timeoutMs);
-    options.signal = ctrl.signal;
+    var ctrl = ('AbortController' in window) ? new AbortController() : null;
+    var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, timeoutMs) : null;
+    if (ctrl) { options.signal = ctrl.signal; }
     return fetch(CONFIG.API_BASE + path, options).then(function (res) {
       return res.text().then(function (txt) {
         clearTimeout(timer);
-        var data;
-        try { data = JSON.parse(txt); } catch (e) { throw new Error('bad_response'); }
-        if (!res.ok) { throw new Error('http_' + res.status); }
+        var data, er;
+        try { data = JSON.parse(txt); } catch (e) { er = new Error('bad_response'); er.status = res.status; throw er; }
+        if (!res.ok) { er = new Error('http_' + res.status); er.status = res.status; er.data = data; throw er; }
         return data;
       });
     }, function (err) { clearTimeout(timer); throw err; });
   }
-  function post(path, payload, ms) { return request(path, { method: 'POST', headers: jsonHeaders(), body: JSON.stringify(payload) }, ms || 30000); }
+  /* POST: ردود 429 و 4xx اللي فيها JSON بتتحوّل لرد "ok:false" عادي، والباقي (شبكة/timeout/5xx) بيترمي */
+  function post(path, payload, ms) {
+    return request(path, { method: 'POST', headers: jsonHeaders(), body: JSON.stringify(payload) }, ms || 30000).catch(function (err) {
+      if (err && err.status === 429) {
+        return { ok: false, reason: 'rate_limited', message: (err.data && err.data.message) || 'المحاولات كتير. استنى شوية وجرّب تاني.' };
+      }
+      if (err && err.status >= 400 && err.status < 500 && err.status !== 408 && err.data && typeof err.data === 'object') {
+        err.data.ok = false; return err.data;
+      }
+      throw err;
+    });
+  }
   function getAvailability(date, attempt) {
     attempt = attempt || 0;
     var q = [];
@@ -316,41 +576,79 @@ input[aria-invalid="true"]{border-color:var(--red)}
       throw err;
     });
   }
+  /* requestId: بيتولّد مرة لكل "نية" (نفس البيانات)، وبيتعاد استخدامه لو النت قطع، وبيتمسح لما يجي رد نهائي */
+  function reqIdFor(fp) { if (!pendingIds[fp]) { pendingIds[fp] = uuid(); } return pendingIds[fp]; }
+  function clearReqId(fp) { delete pendingIds[fp]; }
+
+  /* ---------- تنضيف ردود الـ availability ---------- */
+  function cleanDays(a) {
+    return (Array.isArray(a) ? a : []).filter(function (d) { return d && ISO_RE.test(String(d.date)); }).map(function (d) {
+      return { date: d.date, label: d.label || weekdayAr(d.date), short: d.short || fmtDate(d.date).slice(0, 5) };
+    });
+  }
+  function cleanSlot(s) {
+    if (!s || !validHHMM(String(s.start))) { return null; }
+    var durs = (Array.isArray(s.durations) ? s.durations : []).map(function (d) {
+      var m = Number(d && d.mins);
+      return DUR_LABELS[m] ? { mins: m, price: d.price, ok: d.ok === true } : null;
+    }).filter(Boolean).sort(function (a, b) { return a.mins - b.mins; });
+    return { start: String(s.start), free: s.free === true, durations: durs };
+  }
+  function cleanFields(a) {
+    return (Array.isArray(a) ? a : []).filter(function (f) { return f && f.id && Array.isArray(f.slots); }).map(function (f) {
+      var slots = f.slots.map(cleanSlot).filter(Boolean).sort(function (x, y) { return normMin(toMin(x.start)) - normMin(toMin(y.start)); });
+      return { id: String(f.id), name: f.name || String(f.id), pricePerHour: f.pricePerHour, slots: slots };
+    });
+  }
 
   /* ---------- alerts ---------- */
-  function showAlert(msg, withRetry) {
-    var a = $('alert'); clear(a); a.className = 'alert';
+  function showAlert(msg, opts) {
+    opts = opts || {};
+    var a = $('alert'); clear(a); a.className = 'alert' + (opts.good ? ' good' : '');
     a.appendChild(el('div', { text: msg }));
-    if (withRetry) { a.appendChild(el('button', { type: 'button', text: 'جرّب تاني', onclick: function () { load(state.date, false); } })); }
+    if (opts.contact && clubPhone()) {
+      a.appendChild(el('a', { href: 'tel:' + clubPhone().replace(/[^0-9+]/g, ''), text: 'اتصل بالنادي: ' + clubPhone(), style: 'display:block;margin-top:6px;color:inherit;font-weight:600' }));
+    }
+    if (opts.retry) { a.appendChild(el('button', { type: 'button', text: 'جرّب تاني', onclick: function () { load(state.date && !dayEnded(state.date) ? state.date : null, false); } })); }
     a.hidden = false;
   }
   function hideAlert() { $('alert').hidden = true; }
   function mAlert(msg, good) { var a = $('mAlert'); a.textContent = msg; a.className = 'alert' + (good ? ' good' : ''); a.hidden = false; }
+  function failMsg(data, fallback) {
+    var map = { conflict: 'حد سبقك وحجز الميعاد ده. اختار ميعاد تاني.', past: 'الميعاد ده عدّى. اختار ميعاد تاني.', rate_limited: 'المحاولات كتير. استنى شوية وجرّب تاني.' };
+    return (data && data.message) || (data && map[data.reason]) || fallback;
+  }
 
   /* ---------- load ---------- */
-  function load(date, keepAlert, retriedDate) {
+  function load(date, keepAlert, retried) {
+    var seq = ++state.seq;
     state.loading = true;
     if (!keepAlert) { hideAlert(); }
     renderSlots();
-    getAvailability(date).then(function (data) {
-      if (!data.ok) {
-        if (data.days && data.days.length && !retriedDate) { return load(data.days[0].date, keepAlert, true); }
+    return getAvailability(date).then(function (raw) {
+      if (seq !== state.seq) { return; }
+      var days = cleanDays(raw && raw.days);
+      if (!raw || !raw.ok) {
+        if (days.length && !retried) { return load(days[0].date, keepAlert, true); }
         throw new Error('bad_data');
       }
+      var fields = cleanFields(raw.fields);
+      var d = ISO_RE.test(String(raw.date)) ? raw.date : (days[0] && days[0].date);
+      if (!fields.length || !d) { throw new Error('bad_data'); }
+      if (days.length && !days.some(function (x) { return x.date === d; }) && !retried) { return load(days[0].date, keepAlert, true); }
       state.loading = false;
-      state.days = data.days;
-      state.date = data.date;
-      state.fields = data.fields;
-      if (!curField()) { state.fieldId = state.fields[0].id; }
-      var s = curSlot();
-      if (state.slot && (!s || !s.free || isPast(s))) { state.slot = null; }
-      var f = curField();
-      if (f && f.pricePerHour) { $('priceLine').textContent = f.pricePerHour + ' جنيه للساعة'; $('priceLine').hidden = false; }
+      state.days = days; state.date = d; state.fields = fields;
+      state.cairoDay = cairoNow().date;
+      if (!curField()) { state.fieldId = fields[0].id; }
+      var code = syncSelection();
       renderAll();
+      if (code && $('alert').hidden) { showAlert(syncMsg(code)); }
     }).catch(function () {
+      if (seq !== state.seq) { return; }
       state.loading = false;
       renderAll();
-      showAlert('مقدرناش نجيب المواعيد. اتأكد من النت وجرّب تاني.', true);
+      if (keepAlert && !$('alert').hidden) { return; }
+      showAlert('مقدرناش نجيب المواعيد. اتأكد من النت وجرّب تاني.', { retry: true });
     });
   }
 
@@ -367,26 +665,33 @@ input[aria-invalid="true"]{border-color:var(--red)}
     });
     return sv;
   }
+  function renderPrice() {
+    var f = curField(), p = $('priceLine');
+    if (f && f.pricePerHour) { p.textContent = f.pricePerHour + ' جنيه للساعة'; p.hidden = false; } else { p.hidden = true; }
+  }
   function renderFields() {
     var box = $('fields'); clear(box);
     $('s-fields').hidden = state.fields.length < 2;
     state.fields.forEach(function (f) {
       var free = f.slots.filter(function (s) { return s.free && !isPast(s); }).length;
       box.appendChild(el('button', { type: 'button', class: 'field-card', 'aria-pressed': String(f.id === state.fieldId), onclick: function () {
+        if (state.submitting) { return; }
         state.fieldId = f.id;
-        var s = curSlot(); if (state.slot && (!s || !s.free || isPast(s))) { state.slot = null; }
+        var code = syncSelection();
         hideAlert(); renderAll();
-      } }, [pitchIcon(), el('strong', { text: f.name }), el('span', { text: f.pricePerHour + ' جنيه للساعة' }), el('span', { text: free ? 'متاح ' + free + ' ميعاد' : 'مفيش مواعيد' })]));
+        if (code) { showAlert(syncMsg(code)); }
+      } }, [pitchIcon(), el('strong', { text: f.name }), el('span', { text: f.pricePerHour ? f.pricePerHour + ' جنيه للساعة' : '' }), el('span', { text: free ? 'متاح ' + free + ' ميعاد' : 'مفيش مواعيد' })]));
     });
   }
   function renderDays() {
-    var box = $('days'); clear(box);
+    var box = $('days'), sl = box.scrollLeft; clear(box);
     state.days.forEach(function (d) {
       box.appendChild(el('button', { type: 'button', class: 'day', 'aria-pressed': String(d.date === state.date), onclick: function () {
-        if (d.date === state.date) { return; }
+        if (state.submitting || d.date === state.date) { return; }
         state.date = d.date; state.slot = null; load(d.date, false);
       } }, [el('b', { text: d.label }), el('small', { text: d.short })]));
     });
+    box.scrollLeft = sl;
   }
   function renderSlots() {
     var box = $('slots'); clear(box);
@@ -398,7 +703,7 @@ input[aria-invalid="true"]{border-color:var(--red)}
     var GROUPS = [
       { from: 420, to: 780, name: 'الصبح', note: '7 الصبح لحد 12' },
       { from: 780, to: 1200, name: 'الضهر والعصر', note: '1 الضهر لحد 7' },
-      { from: 1200, to: 1681, name: 'بليل', note: '8 بليل لحد 4 الفجر' }
+      { from: 1200, to: 99999, name: 'بليل', note: '8 بليل لحد 4 الفجر' }
     ];
     GROUPS.forEach(function (g) {
       var list = f.slots.filter(function (s) { var m = normMin(toMin(s.start)); return m >= g.from && m < g.to; });
@@ -406,14 +711,17 @@ input[aria-invalid="true"]{border-color:var(--red)}
       box.appendChild(el('h3', { class: 'grp' }, [g.name]));
       list.forEach(function (s) {
         var past = isPast(s), booked = !past && !s.free;
-        var m = normMin(toMin(s.start)), h12 = Math.floor(m / 60) % 12 || 12, t = h12 + ':00';
+        var m = normMin(toMin(s.start)), h12 = Math.floor(m / 60) % 12 || 12, t = h12 + ':' + pad2(m % 60);
         var kids = [t];
         if (past) { kids.push(el('small', { text: 'عدّى' })); }
         else if (booked) { kids.push(el('small', { text: 'محجوز' })); }
         var b = el('button', { type: 'button', class: 'slot' + (past ? ' past' : '') + (booked ? ' booked' : ''), 'aria-pressed': String(s.start === state.slot), onclick: function () {
+          if (state.submitting) { return; }
+          var first = firstOk(s);
+          if (!first) { state.slot = null; renderAll(); showAlert('الميعاد ده مش متاح لأي مدة دلوقتي. اختار ميعاد تاني.'); return; }
           state.slot = s.start;
-          var ok = s.durations.filter(function (d) { return d.ok && d.mins === state.dur; })[0];
-          if (!ok) { state.dur = s.durations.filter(function (d) { return d.ok; })[0].mins; }
+          var cur = durOpt(s, state.dur);
+          if (!cur || !cur.ok) { state.dur = first.mins; }
           hideAlert(); renderAll();
         } }, kids);
         b.setAttribute('aria-label', ar12(m) + (past ? ' عدّى' : (booked ? ' محجوز' : '')));
@@ -424,47 +732,91 @@ input[aria-invalid="true"]{border-color:var(--red)}
   }
   function renderDurs() {
     var s = curSlot();
-    $('s-dur').hidden = !s; $('s-info').hidden = !s || !!state.modify;
-    var box = $('durs'); clear(box);
+    $('s-dur').hidden = !s; $('s-info').hidden = !s || !!state.modify; $('s-policy').hidden = !s;
+    var box = $('durs'), note = $('durNote'); clear(box); note.hidden = true; note.textContent = '';
     if (!s) { return; }
+    var reason = blockReason(s), blockedLong = [];
     s.durations.forEach(function (d) {
-      var b = el('button', { type: 'button', class: 'dur', 'aria-pressed': String(d.mins === state.dur), onclick: function () { state.dur = d.mins; renderDurs(); renderBar(); } },
-        [el('b', { text: DUR_LABELS[d.mins] }), el('small', { text: d.price + ' جنيه' })]);
+      var kids = [el('b', { text: DUR_LABELS[d.mins] }), el('small', { text: d.price + ' جنيه' })];
+      if (!d.ok) {
+        var r = d.mins > 60 ? reason : 'other';
+        kids.push(el('small', { class: 'why', text: WHY_SHORT[r] }));
+        if (d.mins > 60) { blockedLong.push(DUR_LABELS[d.mins]); }
+      }
+      var b = el('button', { type: 'button', class: 'dur', 'aria-pressed': String(d.mins === state.dur), onclick: function () {
+        if (state.submitting) { return; }
+        state.dur = d.mins; renderDurs(); renderBar();
+      } }, kids);
       if (!d.ok) { b.disabled = true; }
       box.appendChild(b);
     });
+    if (blockedLong.length) {
+      var names = blockedLong.length > 1 ? blockedLong[0] + ' و' + blockedLong[1] : blockedLong[0];
+      note.textContent = names + (blockedLong.length > 1 ? ' مش متاحين: ' : ' مش متاحة: ') + WHY_LONG[reason] + '. اختار ميعاد تاني لو عايز وقت أطول.';
+      note.hidden = false;
+    }
   }
   function renderBar() {
     var s = curSlot(), f = curField(), d = curDay();
-    $('bar').hidden = !s || !f || !$('main').offsetParent && $('main').hidden;
-    if (!s || !f) { $('bar').hidden = true; return; }
-    $('bar').hidden = $('main').hidden;
-    var opt = s.durations.filter(function (x) { return x.mins === state.dur; })[0];
-    var start = toMin(s.start);
-    $('sumTop').textContent = f.name + ' - ' + (opt ? opt.price : '') + ' جنيه';
-    $('sumBottom').textContent = (d ? d.label + ' ' + d.short : '') + '، ' + ar12(start) + ' - ' + ar12(start + state.dur);
-    $('cta').textContent = state.modify ? 'تأكيد التعديل' : 'تأكيد الحجز';
+    if (!s || !f || $('main').hidden) { $('bar').hidden = true; return; }
+    $('bar').hidden = false;
+    var opt = durOpt(s, state.dur), ok = !!(opt && opt.ok), start = normMin(toMin(s.start));
+    $('sumTop').textContent = f.name + (ok ? ' - ' + opt.price + ' جنيه' : '');
+    $('sumBottom').textContent = (d ? d.label + ' ' + d.short : '') + '، ' + (ok ? ar12(start) + ' - ' + ar12(start + state.dur) : 'اختار مدة متاحة');
+    var cta = $('cta');
+    if (state.submitting) { cta.disabled = true; cta.textContent = state.modify ? 'بنأكد التعديل...' : 'بنأكد الحجز...'; return; }
+    cta.disabled = !ok;
+    cta.textContent = state.modify ? 'تأكيد التعديل' : 'تأكيد الحجز';
   }
   function renderBanner() {
     var b = $('modBanner'); clear(b);
     if (!state.modify) { b.hidden = true; return; }
     var m = state.modify;
-    b.appendChild(el('div', { text: 'بتعدّل الحجز رقم ' + m.bookingId + ' (الحالي: ' + m.dayName + ' ' + fmtDate(m.date) + '، ' + lab(m) + '). اختار الميعاد الجديد.' }));
-    b.appendChild(el('button', { type: 'button', text: 'سيب التعديل', onclick: function () { state.modify = null; state.slot = null; renderBanner(); load(state.date, false); } }));
+    b.appendChild(el('div', { text: 'بتعدّل الحجز رقم ' + m.bookingId + ' (الحالي: ' + dayLabel(m) + '، ' + lab(m) + '). اختار الميعاد الجديد.' }));
+    b.appendChild(el('button', { type: 'button', text: 'سيب التعديل', onclick: function () {
+      if (state.submitting) { return; }
+      state.modify = null; state.slot = null; renderBanner(); load(state.date, false);
+    } }));
     b.hidden = false;
   }
-  function renderAll() { renderBanner(); renderFields(); renderDays(); renderSlots(); renderDurs(); renderBar(); }
-  function fmtDate(d) { return d ? d.split('-').reverse().join('/') : ''; }
+  function renderAll() { renderBanner(); renderPrice(); renderFields(); renderDays(); renderSlots(); renderDurs(); renderBar(); }
+
+  /* ---------- سياسة الحجز والإلغاء ---------- */
+  function policyLines() {
+    var L = [
+      'الحجز بيتأكد فورًا وبتاخد رقم حجز، احتفظ بيه لأنك هتحتاجه للتعديل أو الإلغاء.',
+      'تقدر تعدّل ميعاد حجزك أو تلغيه من تبويب "حجزي" برقم الحجز ورقم تليفونك.',
+      'التعديل والإلغاء للحجوزات الجاية بس، والحجز اللي ميعاده عدّى أو اتلغى مينفعش يتعدّل.',
+      'لما تلغي، الميعاد بيرجع متاح لغيرك على طول.'
+    ];
+    if (CONFIG.CANCEL_NOTICE_HOURS > 0) { L.push('لازم تلغي أو تعدّل قبل الميعاد بـ ' + CONFIG.CANCEL_NOTICE_HOURS + ' ساعة على الأقل.'); }
+    return L.concat(CONFIG.POLICY_EXTRA || []);
+  }
+  function renderPolicy(box) {
+    clear(box);
+    box.appendChild(el('strong', { text: 'سياسة الحجز والإلغاء' }));
+    box.appendChild(el('ul', null, policyLines().map(function (t) { return el('li', { text: t }); })));
+  }
 
   /* ---------- tabs ---------- */
-  function showTab(t) {
+  function showTab(t, skipRefresh) {
     var book = t === 'book';
     $('tab-book').setAttribute('aria-selected', String(book));
     $('tab-manage').setAttribute('aria-selected', String(!book));
     $('main').hidden = !book; $('manage').hidden = book;
     $('done').hidden = true; $('tabs').hidden = false; $('foot').hidden = false;
-    if (book) { renderBar(); } else { $('bar').hidden = true; }
+    if (book) {
+      renderBar();
+      if (!skipRefresh && !state.loading && state.cairoDay && state.cairoDay !== cairoNow().date) { load(safeDate(), true); }
+    } else { $('bar').hidden = true; refreshRestore(); }
     window.scrollTo(0, 0);
+  }
+  function refreshRestore() { var r = $('restoreRow'); if (r) { r.hidden = !store.get(KEYS.last); } }
+  function goHome() {
+    state.slot = null; state.modify = null; state.found = null;
+    clear($('mResult')); $('mAlert').hidden = true;
+    showTab('book', true);
+    load(safeDate(), false);
   }
 
   /* ---------- submit (حجز جديد أو تعديل) ---------- */
@@ -476,56 +828,89 @@ input[aria-invalid="true"]{border-color:var(--red)}
     if (state.submitting) { return; }
     var s = curSlot(), f = curField();
     if (!s || !f) { return; }
-    var mod = state.modify, payload, path;
+    if (isPast(s)) { state.slot = null; renderAll(); showAlert('الميعاد ده عدّى. اختار ميعاد تاني.'); return; }
+    var opt = durOpt(s, state.dur);
+    if (!opt || !opt.ok) { var code = syncSelection(); renderAll(); showAlert(syncMsg(code || 'none')); return; }
+    var mod = state.modify, payload, path, kind, name = '', phone = '';
     if (mod) {
-      path = '/club-modify';
-      payload = { bookingId: mod.bookingId, phone: mod.phone, field: f.id, date: state.date, start: s.start, duration: state.dur };
+      kind = 'modify'; path = '/club-modify'; phone = authPhone(mod);
+      payload = { bookingId: mod.bookingId, phone: phone, field: f.id, date: state.date, start: s.start, duration: state.dur };
     } else {
-      var name = $('name').value.trim().replace(/ +/g, ' ');
-      var phone = enDigits($('phone').value).replace(/[^0-9]/g, '');
-      var bad = false;
-      setErr('name', 'nameErr', ''); setErr('phone', 'phoneErr', '');
-      if (name.length < 2) { setErr('name', 'nameErr', 'اكتب اسمك.'); bad = true; }
-      if (!/^01[0-9]{9}$/.test(phone)) { setErr('phone', 'phoneErr', 'الرقم لازم يبدأ بـ 01 ويكون 11 رقم.'); bad = true; }
-      if (bad) { (name.length < 2 ? $('name') : $('phone')).focus(); return; }
-      try { localStorage.setItem('club_name', name); localStorage.setItem('club_phone', phone); } catch (e) { /* ignore */ }
-      path = '/club-book';
+      name = cleanName($('name').value);
+      phone = normPhone($('phone').value);
+      var nErr = nameError(name), pErr = PHONE_RE.test(phone) ? '' : PHONE_MSG;
+      setErr('name', 'nameErr', nErr); setErr('phone', 'phoneErr', pErr);
+      $('name').value = name;
+      if (nErr || pErr) { (nErr ? $('name') : $('phone')).focus(); return; }
+      $('phone').value = phone;
+      kind = 'book'; path = '/club-book';
       payload = { field: f.id, date: state.date, start: s.start, duration: state.dur, name: name, phone: phone, website: $('website').value };
     }
+    var fp = [kind, payload.bookingId || '', f.id, state.date, s.start, state.dur, name, phone].join('|');
+    payload.requestId = reqIdFor(fp);
+    var ctx = { fieldId: f.id, fieldName: f.name, date: state.date, start: s.start, dur: state.dur, price: opt.price, name: name, phone: phone, mod: mod };
     state.submitting = true;
-    var cta = $('cta'); cta.disabled = true; cta.textContent = mod ? 'بنأكد التعديل...' : 'بنأكد الحجز...';
+    renderBar();
     hideAlert();
     post(path, payload, 40000).then(function (data) {
-      state.submitting = false; cta.disabled = false; renderBar();
+      state.submitting = false; clearReqId(fp); renderBar();
       if (data && data.ok) {
-        if (mod) { data.phone = data.phone || mod.phone; data.name = data.name || mod.name; state.modify = null; }
-        saveLast(data); showDone(data, mod ? 'تم تعديل حجزك بنجاح' : 'تم حجزك بنجاح'); return;
+        var t = buildTicket(data, ctx);
+        if (mod) { state.modify = null; state.found = null; clear($('mResult')); }
+        state.slot = null;
+        saveLast(t, ctx);
+        showDone(t, mod ? 'تم تعديل حجزك بنجاح' : 'تم حجزك بنجاح');
+        return;
       }
-      var msg = (data && data.message) || (mod ? 'مقدرناش نعدّل الحجز. جرّب تاني.' : 'مقدرناش نكمل الحجز. جرّب تاني.');
       if (data && (data.reason === 'conflict' || data.reason === 'past')) { state.slot = null; }
+      var msg = failMsg(data, mod ? 'مقدرناش نعدّل الحجز. جرّب تاني.' : 'مقدرناش نكمل الحجز. جرّب تاني.');
       load(state.date, true);
-      showAlert(msg, false);
+      showAlert(msg);
     }).catch(function () {
-      state.submitting = false; cta.disabled = false; renderBar();
+      /* الطلب ممكن يكون وصل ومردّش: بنحتفظ بنفس requestId عشان لو الواجهة بعتته تاني السيرفر يتعرف عليه */
+      state.submitting = false; renderBar();
+      var msg = mod
+        ? 'النت قطع قبل ما نتأكد من التعديل. اتأكد من حجزك من تبويب "حجزي" قبل ما تحاول تاني. لو محتاج مساعدة ' + contactText() + '.'
+        : 'النت قطع قبل ما نتأكد من الحجز. استنى المواعيد تتحدّث: لو الميعاد بقى محجوز يبقى حجزك غالبًا اتسجل، ' + contactText() + ' عشان يأكدهولك. ولو لسه متاح تقدر تضغط تأكيد تاني.';
       load(state.date, true);
-      showAlert(mod ? 'النت قطع قبل ما نتأكد من التعديل. اتأكد من حجزك من تبويب "حجزي" قبل ما تحاول تاني.'
-        : 'النت قطع قبل ما نتأكد من الحجز. متحجزش تاني على طول: بعد ما المواعيد تتحدّث، لو الميعاد بقى محجوز يبقى حجزك اتسجل، وكلّم النادي عشان يأكدهولك.', false);
+      showAlert(msg, { contact: true });
     });
   }
-  function saveLast(d) { try { localStorage.setItem('club_last_id', d.bookingId); if (d.phone) { localStorage.setItem('club_phone', d.phone); } } catch (e) { /* ignore */ } }
+  /* بيكمّل بيانات التذكرة: رد السيرفر الأول، وبعده اللي المستخدم اختاره (مش بيانات الحجز القديم) */
+  function buildTicket(data, c) {
+    var t = {};
+    Object.keys(data).forEach(function (k) { t[k] = data[k]; });
+    t.bookingId = data.bookingId || (c.mod && c.mod.bookingId) || '';
+    t.field = data.field || c.fieldId;
+    t.fieldName = data.fieldName || c.fieldName;
+    t.date = ISO_RE.test(String(data.date)) ? data.date : c.date;
+    t.dayName = data.dayName || weekdayAr(t.date);
+    t.start = validHHMM(data.start) ? data.start : c.start;
+    t.duration = durOf(data) || c.dur;
+    t.end = validHHMM(data.end) ? data.end : calcEnd(t.start, t.duration);
+    t.price = (data.price !== undefined && data.price !== null && data.price !== '') ? data.price : c.price;
+    t.name = data.name || c.name || (c.mod && c.mod.name) || '';
+    t.phone = data.phone || c.phone || '';
+    return t;
+  }
+  function saveLast(t, c) {
+    store.set(KEYS.last, t.bookingId);
+    if (c.phone) { store.set(KEYS.phone, c.phone); }
+    if (c.name) { store.set(KEYS.name, c.name); }
+  }
 
   function ticket(d, badge, cancelled) {
     var dl = el('dl', null, [
-      el('dt', { text: 'الملعب' }), el('dd', { text: d.fieldName || CONFIG.CLUB_NAME }),
-      el('dt', { text: 'اليوم' }), el('dd', { text: d.dayName + ' ' + fmtDate(d.date) }),
+      el('dt', { text: 'الملعب' }), el('dd', { text: fieldNameOf(d) }),
+      el('dt', { text: 'اليوم' }), el('dd', { text: dayLabel(d) }),
       el('dt', { text: 'الوقت' }), el('dd', { text: lab(d) }),
-      el('dt', { text: 'السعر' }), el('dd', { text: d.price + ' جنيه' }),
+      el('dt', { text: 'السعر' }), el('dd', { text: fmtPrice(d.price) }),
       el('dt', { text: 'الاسم' }), el('dd', { text: d.name || '' }),
       el('dt', { text: 'التليفون' }), el('dd', { text: d.phone || '' })
     ]);
     return el('div', { class: 'ticket' }, [
       el('span', { class: 'ok' + (cancelled ? ' cancel' : ''), text: badge }),
-      el('div', { class: 'code', text: d.bookingId }),
+      el('div', { class: 'code', text: String(d.bookingId || '') }),
       el('div', { class: 'lbl', text: 'رقم الحجز، احتفظ بيه' }),
       dl
     ]);
@@ -554,9 +939,9 @@ input[aria-invalid="true"]{border-color:var(--red)}
     box.appendChild(ticket(d, badge));
     box.appendChild(el('div', { class: 'actions' }, [
       copyBtn,
-      el('button', { type: 'button', class: 'btn main', text: 'الرجوع إلى الرئيسية', onclick: function () { state.slot = null; showTab('book'); load(state.date, false); } })
+      el('button', { type: 'button', class: 'btn main', text: 'الرجوع إلى الرئيسية', onclick: goHome })
     ]));
-    box.appendChild(el('p', { class: 'hint', text: 'لو عايز تلغي أو تعدّل الحجز، افتح تبويب "حجزي" واكتب رقم الحجز.' }));
+    box.appendChild(el('p', { class: 'hint', text: 'لو عايز تلغي أو تعدّل الحجز، ارجع للرئيسية وافتح تبويب "حجزي" واضغط "استرجاع آخر حجز".' }));
     box.hidden = false;
     window.scrollTo(0, 0);
   }
@@ -564,18 +949,28 @@ input[aria-invalid="true"]{border-color:var(--red)}
   /* ---------- حجزي: بحث / إلغاء / تعديل ---------- */
   function lookup(e) {
     e.preventDefault();
-    var id = $('bid').value.trim().toUpperCase().replace(/\s+/g, '');
-    var phone = enDigits($('mphone').value).replace(/[^0-9]/g, '');
-    var bad = false;
+    var wait = Math.ceil((lk.until - Date.now()) / 1000);
+    if (wait > 0) { mAlert('حاولت كتير. استنى ' + wait + ' ثانية وجرّب تاني.'); return; }
+    var id = normId($('bid').value), phone = normPhone($('mphone').value), bad = false;
     setErr('bid', 'bidErr', ''); setErr('mphone', 'mphoneErr', ''); $('mAlert').hidden = true; clear($('mResult'));
-    if (id.length < 2) { setErr('bid', 'bidErr', 'اكتب رقم الحجز.'); bad = true; }
-    if (!/^01[0-9]{9}$/.test(phone)) { setErr('mphone', 'mphoneErr', 'الرقم لازم يبدأ بـ 01 ويكون 11 رقم.'); bad = true; }
+    $('bid').value = id;
+    if (!ID_RE.test(id)) { setErr('bid', 'bidErr', id ? 'رقم الحجز مش مكتوب صح. اتأكد منه (حروف إنجليزي وأرقام بس).' : 'اكتب رقم الحجز.'); bad = true; }
+    if (!PHONE_RE.test(phone)) { setErr('mphone', 'mphoneErr', PHONE_MSG); bad = true; }
     if (bad) { return; }
+    $('mphone').value = phone;
     var btn = $('lookBtn'); btn.disabled = true; btn.textContent = 'بندوّر...';
     post('/club-lookup', { bookingId: id, phone: phone }, 20000).then(function (data) {
       btn.disabled = false; btn.textContent = 'اعرض حجزي';
-      if (!data || !data.ok || !data.booking) { mAlert((data && data.message) || 'مالقيناش حجز بالرقم والتليفون دول. اتأكد منهم.'); return; }
-      state.found = data.booking; state.found.phone = state.found.phone || phone;
+      if (!data || !data.ok || !data.booking) {
+        lk.fails++; if (lk.fails >= 5) { lk.until = Date.now() + 60000; lk.fails = 0; }
+        mAlert((data && data.message) || 'مالقيناش حجز بالرقم والتليفون دول. اتأكد منهم.'); return;
+      }
+      lk.fails = 0;
+      state.found = data.booking;
+      state.found.bookingId = state.found.bookingId || id;
+      state.found.authPhone = phone;
+      state.found.phone = state.found.phone || phone;
+      store.set(KEYS.last, state.found.bookingId); store.set(KEYS.phone, phone);
       renderFound(false);
     }).catch(function () {
       btn.disabled = false; btn.textContent = 'اعرض حجزي';
@@ -588,7 +983,7 @@ input[aria-invalid="true"]{border-color:var(--red)}
     box.appendChild(ticket(b, 'حجزك'));
     var acts;
     if (b.canEdit === false) {
-      acts = el('p', { class: 'hint', text: 'الحجز ده عدّى أو اتلغى، مينفعش يتعدّل.' });
+      acts = el('p', { class: 'hint', text: b.editMessage || 'الحجز ده عدّى أو اتلغى أو مش متاح تعديله، مينفعش يتعدّل.' });
     } else if (askCancel) {
       acts = el('div', null, [
         el('p', { text: 'متأكد إنك عايز تلغي الحجز ده؟', style: 'font-weight:600;margin:16px 0 0' }),
@@ -606,51 +1001,76 @@ input[aria-invalid="true"]{border-color:var(--red)}
     box.appendChild(acts);
   }
   function doCancel() {
-    var b = state.found, btn = $('yesCancel'); btn.disabled = true; btn.textContent = 'بنلغي...';
-    post('/club-cancel', { bookingId: b.bookingId, phone: b.phone }, 30000).then(function (data) {
+    if (state.cancelling || !state.found) { return; }
+    var b = state.found, btn = $('yesCancel'), phone = authPhone(b);
+    var fp = ['cancel', b.bookingId, phone].join('|');
+    state.cancelling = true; btn.disabled = true; btn.textContent = 'بنلغي...';
+    post('/club-cancel', { requestId: reqIdFor(fp), bookingId: b.bookingId, phone: phone }, 30000).then(function (data) {
+      state.cancelling = false; clearReqId(fp);
       if (data && data.ok) {
-        try { if (localStorage.getItem('club_last_id') === b.bookingId) { localStorage.removeItem('club_last_id'); } } catch (e) { /* ignore */ }
+        if (store.get(KEYS.last) === b.bookingId) { store.del(KEYS.last); }
+        refreshRestore();
         var box = $('mResult'); clear(box);
         box.appendChild(ticket(b, 'الحجز اتلغى', true));
         state.found = null; mAlert('الحجز رقم ' + b.bookingId + ' اتلغى والميعاد رجع متاح.', true);
         return;
       }
-      renderFound(true); mAlert((data && data.message) || 'مقدرناش نلغي الحجز. جرّب تاني.');
-    }).catch(function () { renderFound(true); mAlert('النت قطع قبل ما نتأكد من الإلغاء. دوّر على حجزك تاني وشوف حالته.'); });
+      renderFound(true); mAlert(failMsg(data, 'مقدرناش نلغي الحجز. جرّب تاني.'));
+    }).catch(function () {
+      state.cancelling = false;
+      renderFound(true);
+      mAlert('النت قطع قبل ما نتأكد من الإلغاء. دوّر على حجزك تاني وشوف حالته، ولو لسه موجود تقدر تلغي تاني.');
+    });
   }
   function startModify() {
-    state.modify = state.found; state.slot = null; if (state.found.field) { state.fieldId = state.found.field; }
-    showTab('book'); load(state.found.date, false);
+    var b = state.found; if (!b) { return; }
+    state.modify = b; state.slot = null;
+    if (b.field) { state.fieldId = String(b.field); }
+    var bd = durOf(b); if (DUR_LABELS[bd]) { state.dur = bd; }
+    hideAlert(); showTab('book', true);
+    load(ISO_RE.test(String(b.date)) ? b.date : null, false);
   }
 
   /* ---------- init ---------- */
   function init() {
     document.title = 'احجز ' + CONFIG.CLUB_NAME;
+    wipeLegacy();
     var foot = $('foot');
-    if (CONFIG.CLUB_PHONE) {
+    if (clubPhone()) {
       foot.appendChild(document.createTextNode('للاستفسار كلّم النادي على '));
-      foot.appendChild(el('a', { href: 'tel:' + CONFIG.CLUB_PHONE, text: CONFIG.CLUB_PHONE }));
+      foot.appendChild(el('a', { href: 'tel:' + clubPhone().replace(/[^0-9+]/g, ''), text: clubPhone() }));
       foot.appendChild(document.createTextNode('.'));
+    } else {
+      foot.appendChild(document.createTextNode('للاستفسار كلّم إدارة النادي مباشرة.'));
+      if (window.console && console.warn) { console.warn('CONFIG.CLUB_PHONE فاضي: ضيف رقم النادي عشان يظهر في الصفحة ورسائل الخطأ.'); }
     }
-    try {
-      var n = localStorage.getItem('club_name'), p = localStorage.getItem('club_phone'), id = localStorage.getItem('club_last_id');
-      if (n) { $('name').value = n; }
-      if (p) { $('phone').value = p; $('mphone').value = p; }
+    var n = store.get(KEYS.name), p = store.get(KEYS.phone);
+    if (n) { $('name').value = n; }
+    if (p) { $('phone').value = p; $('mphone').value = p; }
+    renderPolicy($('policyBook')); renderPolicy($('policyManage'));
+    refreshRestore();
+    $('restoreBtn').addEventListener('click', function () {
+      var id = store.get(KEYS.last), ph = store.get(KEYS.phone);
       if (id) { $('bid').value = id; }
-    } catch (e) { /* ignore */ }
+      if (ph) { $('mphone').value = ph; }
+      setErr('bid', 'bidErr', ''); setErr('mphone', 'mphoneErr', '');
+      $('lookBtn').focus();
+    });
     $('tab-book').addEventListener('click', function () { showTab('book'); });
     $('tab-manage').addEventListener('click', function () { showTab('manage'); });
     $('cta').addEventListener('click', submit);
     $('form').addEventListener('submit', function (e) { e.preventDefault(); submit(); });
     $('lookForm').addEventListener('submit', lookup);
     document.addEventListener('visibilitychange', function () {
-      if (document.visibilityState === 'visible' && !state.loading && !state.submitting && state.date && $('done').hidden && !$('main').hidden) { load(state.date, true); }
+      if (document.visibilityState === 'visible' && !state.loading && !state.submitting && state.date && $('done').hidden && !$('main').hidden) { load(safeDate(), true); }
     });
     setInterval(function () {
-      if (state.loading || $('main').hidden) { return; }
-      var s = curSlot(); if (s && isPast(s)) { state.slot = null; }
-      renderSlots(); renderDurs(); renderBar();
-    }, 60000);
+      if (state.loading || state.submitting || $('main').hidden) { return; }
+      if (state.cairoDay && state.cairoDay !== cairoNow().date) { load(safeDate(), true); return; }
+      var code = syncSelection();
+      renderFields(); renderSlots(); renderDurs(); renderBar();
+      if (code && $('alert').hidden) { showAlert(syncMsg(code)); }
+    }, 30000);
     renderSlots();
     load(null, false);
   }
